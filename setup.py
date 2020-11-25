@@ -16,7 +16,7 @@ setup(
     url='https://github.com/ServiceInnovationLab/openfisca-canada',
     include_package_data=True,  # Will read MANIFEST.in
     install_requires=[
-        'git+https://github.com/DTS-STN/openfisca-core.git',
+        'git+https://github.com/DTS-STN/openfisca-core.git#egg=openfisca-core',
         ],
     extras_require={
         'test': [
